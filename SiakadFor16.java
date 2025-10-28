@@ -12,15 +12,15 @@ public class SiakadFor16 {
                 tertinggi16 = nilai16;
 
             }
-            // if (nilai16 < terendah16) {
-            //     terendah16 = nilai16;
-            // }
-            // if (nilai16 >= 60){
-            //     lulus16++;
-            // }
-            // if (nilai16 < 60){
-            //     tidakLulus16++;
-            // }
+            if (nilai16 < terendah16) {
+                terendah16 = nilai16;
+            }
+            if (nilai16 >= 60){
+                lulus16++;
+            }
+            if (nilai16 < 60){
+                tidakLulus16++;
+            }
         }
         System.out.println("Nilai Tertinggi : "+ tertinggi16);
         System.out.println("Nilai Terendah : " + terendah16);
